@@ -1,0 +1,38 @@
+sno=int(input('enter sno:'))
+sname=input('enter name:')
+sgroup=input('enter group:')
+s1= int(input('accounts marks:'))
+s2= int(input('java marks:'))
+s3= int(input('os marks:'))
+s4= int(input('english marks:'))
+s5= int(input('hindi marks:'))
+s6= int(input('online business marks:'))
+tot= s1+s2+s3+s4+s5+s6
+avg= tot/6
+if avg>=91:
+    print("Grade is O")
+elif avg>=81:
+    print("Grade is A")
+elif avg>=71:
+    print("Grade is B")
+elif avg>=61:
+    print("Grade is C")
+elif avg>=51:
+    print("Grade is D")
+elif avg>=41:
+    Print("pass")
+else:
+    Print("fail")
+
+Output:
+enter no:49
+enter name:Bhargavi
+enter group:bca
+accounts marks:78
+Java marks:89
+Os marks:67
+english marks:88
+Hindi marks:90
+online business marks:80
+Grade is A 
+    
